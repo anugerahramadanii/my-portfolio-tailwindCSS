@@ -30,16 +30,3 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
-
-@keyframes animate-slide {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(30%);
-  }
-}
-
-.slide-animate {
-  animation: animate-slide 3s linear infinite; /* Sesuaikan durasi dan iterasi animasi */
-}
